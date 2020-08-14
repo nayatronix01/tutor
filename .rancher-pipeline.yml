@@ -5,5 +5,6 @@ stages:
       dockerfilePath: ./Dockerfile
       buildContext: .
       tag: tutor/tutor/templates/build/openedx/Dockerfile
+      registry: 127.0.0.1:34200
 timeout: 60
 notification: {}
