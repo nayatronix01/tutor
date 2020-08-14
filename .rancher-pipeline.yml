@@ -2,9 +2,9 @@ stages:
 - name: Build
   steps:
   - publishImageConfig:
-      dockerfilePath: /tutor/tutor/templates/build/openedx/Dockerfile
+      dockerfilePath: /tutor/tutor/templates/build/openedx/
       buildContext: .
-      tag: openedx:latest
+      tag: openedx
       registry: 127.0.0.1:34200
 timeout: 60
 notification: {}
