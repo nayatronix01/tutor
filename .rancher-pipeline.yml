@@ -4,7 +4,7 @@ stages:
   - publishImageConfig:
       dockerfilePath: /tutor/tutor/templates/build/openedx/Dockerfile
       buildContext: .
-      tag: openedx
+      tag: openedx:latest
       registry: 127.0.0.1:34200
 timeout: 60
 notification: {}
