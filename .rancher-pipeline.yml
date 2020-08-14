@@ -2,7 +2,7 @@ stages:
 - name: Build
   steps:
   - publishImageConfig:
-      dockerfilePath: ./tutor/tutor/templates/build/openedx/Dockerfile
+      dockerfilePath: /tutor/tutor/templates/build/openedx/Dockerfile
       buildContext: .
       tag: openEDX
 timeout: 60
